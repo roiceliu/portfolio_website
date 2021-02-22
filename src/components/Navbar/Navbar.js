@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import Pdf from "../Roice_Liu_resume_java.pdf";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
-function Navbar() {
+function NavbarPrev() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -80,4 +79,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarPrev;
