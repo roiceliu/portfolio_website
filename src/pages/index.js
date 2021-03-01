@@ -3,6 +3,7 @@ import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import WorkSection from "../components/WorkSection";
 import { dataAbout, dataHero } from "./Data";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection {...dataHero} />
       <AboutSection {...dataAbout} />
+      <WorkSection />
     </>
   );
 };

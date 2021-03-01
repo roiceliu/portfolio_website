@@ -21,7 +21,7 @@ const AboutSection = ({ img, alt, description, ImgStart }) => {
           <Column1>
             <AboutTxtWrapper>
               <Headline> 01. About </Headline>
-              <Line />
+              <Line width="101px" />
               <Subtitle>{description}</Subtitle>
             </AboutTxtWrapper>
           </Column1>

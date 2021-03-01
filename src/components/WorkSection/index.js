@@ -1,5 +1,7 @@
 import React from "react";
 import { Headline, Line } from "../AboutSection/AboutElements";
+import Experiences from "../Experiences";
+import { exp1 } from "./Data";
 import { WorkContainer } from "./WorkElements";
 
 const WorkSection = () => {
@@ -7,7 +9,9 @@ const WorkSection = () => {
     <WorkContainer>
       <Headline>02. Experience</Headline>
       <Line />
-      <Experiences />
+      <Experiences {...exp1} />
+      <Experiences {...exp1} />
+      <Experiences {...exp1} />
     </WorkContainer>
   );
 };
