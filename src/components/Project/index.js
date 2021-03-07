@@ -1,6 +1,9 @@
 import React from "react";
 import {
+  Content,
   Description,
+  Details,
+  ProjBox,
   ProjContainer,
   ProjImg,
   ProjImgWrapper,
@@ -12,9 +15,16 @@ import {
 const Project = ({ img, alt, description, techTools, url, projName }) => {
   return (
     <ProjContainer>
-      <ProjImgWrapper>
-        <ProjImg src={img} alt={alt} />
-      </ProjImgWrapper>
+      <ProjBox>
+        <ProjImgWrapper>
+          <ProjImg src={img} alt={alt} />
+        </ProjImgWrapper>
+        {/* the overlay effect */}
+        <Details>
+          <Content>{projName}</Content>
+        </Details>
+      </ProjBox>
+
       <TextWrapper>
         <Description>{description}</Description>
         <Technology>{techTools}</Technology>

@@ -45,7 +45,7 @@ export const ItemGrid = styled.div`
   margin: 0 auto;
   grid-gap: 100px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
     grid-gap: auto;
