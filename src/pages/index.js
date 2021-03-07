@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
+import InfoSection from "../components/InfoSection";
 import Navbar from "../components/Navbar";
+import ProjectsSection from "../components/ProjectsSection";
 import Sidebar from "../components/Sidebar";
 import WorkSection from "../components/WorkSection";
-import { dataAbout, dataHero } from "./Data";
+import { dataAbout, dataHero, InfoContact } from "./Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +22,8 @@ const Home = () => {
       <HeroSection {...dataHero} />
       <AboutSection {...dataAbout} />
       <WorkSection />
+      <ProjectsSection />
+      <InfoSection {...InfoContact} />
     </>
   );
 };

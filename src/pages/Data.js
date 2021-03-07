@@ -1,4 +1,5 @@
 import ImageAbout from "../images/portfolio_img.svg";
+import ContactImg from "../images/contactImg.svg";
 
 export const dataHero = {
   id: "",
@@ -20,20 +21,18 @@ export const dataAbout = {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
 };
 
-export const dataWork = {
-  id: "work",
-  text: "work PAGE",
-  lightBg: true,
-};
-
-export const dataExp = {
-  id: "experience",
-  text: "experience sec",
+export const InfoContact = {
   lightBg: false,
-};
-
-export const dataContact = {
   id: "contact",
-  text: "contact sec",
-  lightBg: true,
+  // topLine: "",
+  // description: "",
+  lightText: true,
+  LightTextDesc: true,
+  headline: "Interested in contacting me?",
+  imgStart: true,
+  buttonLabel: "Contact Us",
+  img: ContactImg,
+  alt: "triangle vector",
+  primary: true,
+  dark: true,
 };
