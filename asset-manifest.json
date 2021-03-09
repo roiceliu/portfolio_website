@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio_website/static/css/main.a4b56fd3.chunk.css",
+    "main.js": "/portfolio_website/static/js/main.e3ea5336.chunk.js",
+    "main.js.map": "/portfolio_website/static/js/main.e3ea5336.chunk.js.map",
+    "runtime-main.js": "/portfolio_website/static/js/runtime-main.35cea910.js",
+    "runtime-main.js.map": "/portfolio_website/static/js/runtime-main.35cea910.js.map",
+    "static/js/2.16f0c3e8.chunk.js": "/portfolio_website/static/js/2.16f0c3e8.chunk.js",
+    "static/js/2.16f0c3e8.chunk.js.map": "/portfolio_website/static/js/2.16f0c3e8.chunk.js.map",
+    "index.html": "/portfolio_website/index.html",
+    "static/css/main.a4b56fd3.chunk.css.map": "/portfolio_website/static/css/main.a4b56fd3.chunk.css.map",
+    "static/js/2.16f0c3e8.chunk.js.LICENSE.txt": "/portfolio_website/static/js/2.16f0c3e8.chunk.js.LICENSE.txt",
+    "static/media/Roice_Liu_resume_java.51056e9d.pdf": "/portfolio_website/static/media/Roice_Liu_resume_java.51056e9d.pdf",
+    "static/media/contactImg.d1558bcc.svg": "/portfolio_website/static/media/contactImg.d1558bcc.svg",
+    "static/media/ellema_web.55ad286b.svg": "/portfolio_website/static/media/ellema_web.55ad286b.svg",
+    "static/media/heroLeft.15261392.svg": "/portfolio_website/static/media/heroLeft.15261392.svg",
+    "static/media/heroRight.51ce49a5.svg": "/portfolio_website/static/media/heroRight.51ce49a5.svg",
+    "static/media/portfolio_img.9db3e6ec.svg": "/portfolio_website/static/media/portfolio_img.9db3e6ec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35cea910.js",
+    "static/js/2.16f0c3e8.chunk.js",
+    "static/css/main.a4b56fd3.chunk.css",
+    "static/js/main.e3ea5336.chunk.js"
+  ]
+}
