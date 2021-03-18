@@ -5,21 +5,20 @@ import "../../App.css";
 export const HeroContainer = styled.div`
   background: #000;
   width: 100%;
-  height: 100%;
   min-height: 600px;
   padding-top: 80px;
-  overflow: hidden;
   display: flex;
-  justify-content: center;
-
-  /* @media screen and (max-width: 768px) {
+  justify-content: end;
+  overflow: hidden;
+  @media screen and (max-width: 768px) {
     height: 800px;
-  } */
+  }
 `;
 
 export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  height: 800px;
   width: 100%;
   max-width: 2000px;
   padding: 0 3vw;

@@ -21,7 +21,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/" onClick={scrolltoHome}>
+        <NavLogo to="/portfolio_website" onClick={scrolltoHome}>
           Roice Liu
         </NavLogo>
         <MobileIcon onClick={toggle}>

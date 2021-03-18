@@ -16,7 +16,7 @@ export const Nav = styled.div`
   /* stay on the top the webpage */
   position: sticky;
   top: 0px;
-  z-index: 20;
+  z-index: 100;
 
   /* smaller screen size like tablet/mobile size, the nav bar with stick out from side with transition animation  */
   @media screen and (max-width: 960px) {
@@ -92,7 +92,7 @@ export const NavLink = styled(LinkS)`
   /* when the current link is clicked, and the page is at the link's component, action is made */
 
   &.active {
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid grey;
   }
 `;
 
