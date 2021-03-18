@@ -4,6 +4,8 @@ export const AboutContainer = styled.div`
   background: #19181a;
   min-height: 600px;
   padding: 8vh 16vw;
+  display: flex;
+  justify-content: center;
 
   @media screen and (max-width: 768px) {
     padding: 100px 12vw;
@@ -16,6 +18,7 @@ export const AboutWrapper = styled.div`
   margin-left: 0;
   margin-right: 0;
   z-index: 10px;
+  display: flex;
   justify-content: center;
 
   @media screen and (max-width: 768px) {

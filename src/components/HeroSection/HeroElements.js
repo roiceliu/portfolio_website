@@ -2,13 +2,14 @@ import styled from "styled-components";
 import "../../App.css";
 // import Triangle from "../../images/hero_tri.svg";
 
+// to have smooth scrolls correctly work, need to specify Height
 export const HeroContainer = styled.div`
   background: #000;
   width: 100%;
   min-height: 600px;
   padding-top: 80px;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   overflow: hidden;
   @media screen and (max-width: 768px) {
     height: 800px;

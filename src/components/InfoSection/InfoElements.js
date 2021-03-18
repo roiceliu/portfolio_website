@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#19181A" : "#000000")};
+  display: flex;
+  justify-content: center;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -95,6 +97,19 @@ export const BtnWrap = styled.div`
   display: flex;
   /* align left */
   justify-content: flex-start;
+`;
+
+export const Button = styled.a`
+  background: #a39054;
+  border-radius: 10px;
+  padding: 20px 20px;
+  color: black;
+  text-decoration: none;
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    background: #d6bd6c;
+  }
 `;
 
 export const ImgWrap = styled.div`

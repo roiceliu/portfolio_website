@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const ProjectsContainer = styled.div`
   background: #19181a;
   padding: 130px 16vw;
+  display: flex;
+  justify-content: center;
 
   @media screen and (max-width: 1000px) {
     padding: 100px 12vw;

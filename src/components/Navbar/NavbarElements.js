@@ -92,7 +92,7 @@ export const NavLink = styled(LinkS)`
   /* when the current link is clicked, and the page is at the link's component, action is made */
 
   &.active {
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid #a39054;
   }
 `;
 
@@ -114,7 +114,7 @@ export const NavBtnLink = styled.a`
   font-size: 18px;
 
   &:hover {
-    background: orange;
+    background: #a39054;
     color: #19181a;
     transition: all 0.2s ease-in-out;
   }

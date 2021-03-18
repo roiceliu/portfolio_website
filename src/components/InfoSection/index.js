@@ -1,8 +1,9 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+// import { Button } from "../ButtonElements";
 
 import {
   BtnWrap,
+  Button,
   Column1,
   Column2,
   Heading,
@@ -43,18 +44,7 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle LightTextDesc={LightTextDesc}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="contact"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    // thisis to trigger section when navbar's bottom border hits
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark ? 1 : 0}
-                  >
+                  <Button href="mailto:roiceliu2@gmail.com">
                     {buttonLabel}
                   </Button>
                 </BtnWrap>
