@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.div`
   /* transparent, box-shadow */
-  background: #19181a;
+  background: #000;
   height: 80px;
   width: 100%;
   /* this is for smooth scroll's bouncing offset, give next section to go top to the screen */
@@ -16,7 +16,7 @@ export const Nav = styled.div`
   /* stay on the top the webpage */
   position: sticky;
   top: 0px;
-  z-index: 10;
+  z-index: 20;
 
   /* smaller screen size like tablet/mobile size, the nav bar with stick out from side with transition animation  */
   @media screen and (max-width: 960px) {
@@ -88,10 +88,11 @@ export const NavLink = styled(LinkS)`
   font-size: 18px;
   padding: 0 1rem;
   height: 100%;
-
+  cursor: pointer;
   /* when the current link is clicked, and the page is at the link's component, action is made */
+
   &.active {
-    border-bottom: 3px, solid, orange;
+    border-bottom: 3px solid orange;
   }
 `;
 

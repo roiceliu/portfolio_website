@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 400px;
+  height: 650px;
   width: 100%;
   max-width: 1100px;
   margin-left: auto;
@@ -21,7 +21,7 @@ export const InfoWapper = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    max-height: 300px;
+    max-height: 400px;
   }
 `;
 

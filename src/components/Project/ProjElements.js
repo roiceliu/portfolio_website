@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link as LinkS } from "react-router-dom";
+// import { Link as LinkS } from "react-router-dom";
 
 export const ProjContainer = styled.div`
   display: flex;
@@ -11,23 +11,29 @@ export const ProjImgWrapper = styled.div`
   /* this is for hover scale-up effect */
   position: relative;
   overflow: hidden;
+  height: 250px;
 `;
 
 export const ProjImg = styled.img`
+  height: 100%;
   width: 100%;
+  object-fit: cover;
+  object-position: 0% 0;
   transition: 0.5s all ease-in-out;
 `;
 
+// a hover infomation overlay on top of project image
+// hidden when not hover on top of it
 export const Details = styled.div`
   display: none;
   border-radius: 10px;
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  background: rgba(161, 110, 131, 0.3);
-  transition: 0.5s all ease-in-out;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(161, 110, 131, 0.7);
+  transition: 1s all ease-in-out;
 `;
 
 export const Content = styled.h3`
@@ -45,7 +51,7 @@ export const ProjBox = styled.div`
   box-sizing: border-box;
   display: inline-block;
   border-radius: 10px;
-
+  overflow: hidden;
   @media screen and (max-width: 1000px) {
     max-width: 300px;
   }
@@ -77,7 +83,7 @@ export const Description = styled.p`
   font-size: 18px;
   color: #797979;
   line-height: 25px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 `;
 
 export const Technology = styled.p`
@@ -87,7 +93,7 @@ export const Technology = styled.p`
   margin-bottom: 14px;
 `;
 
-export const WebLink = styled(LinkS)`
+export const WebLink = styled.a`
   font-size: 18px;
   color: #6164ab;
   line-height: 25px;

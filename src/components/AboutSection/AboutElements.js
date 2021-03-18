@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
 
 export const AboutWrapper = styled.div`
   width: 100%;
-  height: 500px;
+  height: auto;
   margin-left: 0;
   margin-right: 0;
   z-index: 10px;
@@ -27,14 +27,14 @@ export const AboutRow = styled.div`
   display: grid;
   max-width: 1000px;
   padding: 0;
-  grid-template-columns: minmax(auto, 1fr);
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   align-items: center;
 
   grid-template-areas: ${({ ImgStart }) =>
     ImgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     grid-template-areas: "col1 col1" "col2 col2";
   }
 `;
@@ -58,7 +58,7 @@ export const AboutTxtWrapper = styled.div`
   padding-bottom: 60px;
   padding-top: 30px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     max-width: 540px;
   }
 `;
@@ -81,8 +81,10 @@ export const Subtitle = styled.p`
   font-size: 18px;
   max-width: 400px;
   color: #797979;
+  margin-bottom: 20px;
+  line-height: 25px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     max-width: 500px;
   }
 `;
@@ -90,10 +92,10 @@ export const Subtitle = styled.p`
 export const ImgWrapper = styled.div`
   margin-bottom: 60px;
   max-width: 550px;
-  min-width: 380px;
+  min-width: 300px;
   height: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     min-width: 0px;
   }
 `;

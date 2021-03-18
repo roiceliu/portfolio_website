@@ -9,6 +9,7 @@ import {
   ToolContent,
   ToolTitle,
   Date,
+  DescList,
 } from "./ExpElements";
 
 const Experiences = ({
@@ -17,7 +18,10 @@ const Experiences = ({
   startDate,
   endDate,
   tools,
-  description,
+  desc1,
+  desc2,
+  desc3,
+  desc4,
 }) => {
   return (
     <ExpContainer>
@@ -28,7 +32,11 @@ const Experiences = ({
       <Date>
         {startDate} - {endDate}
       </Date>
-      <Description>{description}</Description>
+      <DescList>
+        <Description>{desc1}</Description>
+        <Description Empty={desc2 === undefined}>{desc2}</Description>
+        <Description Empty={desc3 === undefined}>{desc3}</Description>
+      </DescList>
 
       <TechWrapper>
         <ToolTitle>Tools & Languages</ToolTitle>

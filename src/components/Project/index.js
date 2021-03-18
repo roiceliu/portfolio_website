@@ -28,7 +28,10 @@ const Project = ({ img, alt, description, techTools, url, projName }) => {
       <TextWrapper>
         <Description>{description}</Description>
         <Technology>{techTools}</Technology>
-        <WebLink to={url}> Check out {projName} >> </WebLink>
+        <WebLink href={url} target="_blank" rel="noreferrer">
+          {" "}
+          Go to {projName} >>{" "}
+        </WebLink>
       </TextWrapper>
     </ProjContainer>
   );

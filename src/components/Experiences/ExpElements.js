@@ -35,8 +35,14 @@ export const Date = styled.p`
   color: #e5e5e5;
 `;
 
-export const Description = styled.p`
+export const DescList = styled.ul`
+  margin-bottom: 10px;
+`;
+
+export const Description = styled.li`
+  display: ${({ Empty }) => (Empty === true ? "none" : "auto")};
   font-size: 18px;
+  line-height: 25px;
   color: #797979;
   margin-bottom: 10px;
 `;
@@ -58,4 +64,5 @@ export const ToolContent = styled.p`
   font-weight: 300;
   color: #cebc81;
   margin-left: 10px;
+  line-height: 25px;
 `;

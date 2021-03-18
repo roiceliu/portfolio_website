@@ -10,11 +10,11 @@ import {
   ProjectsWrapper,
 } from "./ProjectsElements";
 import Project from "../Project";
-import { test } from "./Data";
+import { designdata1, designdata2, SEdata1, SEdata2 } from "./Data";
 
 const ProjectsSection = () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id="projects">
       <ProjectsWrapper>
         <Header>
           <Headline>03. Projects</Headline>
@@ -24,15 +24,15 @@ const ProjectsSection = () => {
           <Category>
             <CategoryTitle>Software Development</CategoryTitle>
             <ItemGrid>
-              <Project {...test} />
-              <Project {...test} />
+              <Project {...SEdata1} />
+              <Project {...SEdata2} />
             </ItemGrid>
           </Category>
           <Category>
             <CategoryTitle>Design</CategoryTitle>
             <ItemGrid>
-              <Project {...test} />
-              <Project {...test} />
+              <Project {...designdata1} />
+              <Project {...designdata2} />
             </ItemGrid>
           </Category>
         </ItemsWrapper>

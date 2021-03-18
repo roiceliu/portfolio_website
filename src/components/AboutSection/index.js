@@ -13,16 +13,18 @@ import {
   Subtitle,
 } from "./AboutElements";
 
-const AboutSection = ({ img, alt, description, ImgStart }) => {
+const AboutSection = ({ img, alt, desc1, desc2, desc3, ImgStart }) => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <AboutWrapper>
         <AboutRow ImgStart={ImgStart}>
           <Column1>
             <AboutTxtWrapper>
               <Headline> 01. About </Headline>
               <Line width="101px" />
-              <Subtitle>{description}</Subtitle>
+              <Subtitle>{desc1}</Subtitle>
+              <Subtitle>{desc2}</Subtitle>
+              <Subtitle>{desc3}</Subtitle>
             </AboutTxtWrapper>
           </Column1>
           <Column2>

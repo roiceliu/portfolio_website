@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
 import Pdf from "../Roice_Liu_resume_java.pdf";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
@@ -14,25 +15,66 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
+  const scrolltoHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">Roice Liu</NavLogo>
+        <NavLogo to="/" onClick={scrolltoHome}>
+          Roice Liu
+        </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars />
         </MobileIcon>
         <NavMenu>
           <NavItem>
-            <NavLink to="#about">01. About</NavLink>
+            <NavLink
+              to="about"
+              smooth={true}
+              spy={true}
+              duration={500}
+              exact="true"
+              offset={-80}
+            >
+              01. About
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="#experience">02. Experience</NavLink>
+            <NavLink
+              to="experience"
+              smooth={true}
+              spy={true}
+              duration={500}
+              exact="true"
+              offset={-80}
+            >
+              02. Experience
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="#work">03. Work</NavLink>
+            <NavLink
+              to="projects"
+              smooth={true}
+              spy={true}
+              duration={500}
+              exact="true"
+              offset={-80}
+            >
+              03. Work
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="#contact">04. Contact</NavLink>
+            <NavLink
+              to="contact"
+              smooth={true}
+              spy={true}
+              duration={800}
+              exact="true"
+              offset={-80}
+            >
+              04. Contact
+            </NavLink>
           </NavItem>
           <NavBtn>
             <NavBtnLink href={Pdf} target="_blank" rel="noreferrer">
