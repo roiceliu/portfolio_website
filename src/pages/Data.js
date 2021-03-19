@@ -18,11 +18,11 @@ export const dataAbout = {
   img: ImageAbout,
   alt: "Portfolio image",
   desc1:
-    "Hello! My name is Roice. I am a recent graduate in computer engineering and computer science from the University of Wisconsin-Madison.",
+    "Hello! My name is Roice. I am a graduate in computer engineering and computer science from the University of Wisconsin-Madison,2020.",
   desc2:
-    "Now I am a partner in the startup Birdwell Solutions, focusing on software development, project management and sometimes UI design. By taking different roles in similar fields, I am driven to constantly learn new concepts and to approach problems with different perspectives and angles.",
+    "I am currently a partner at Birdwell Solutions,a software consulting startup based in Madison. My focuses are on software development, project management and sometimes UI design. By taking different roles in similar fields, I am driven to constantly learn new concepts and to approach problems with different perspectives and angles.",
   desc3:
-    "My passion is to create comfortable and inspiring user experience between not only products and users, but also between software developers and products.",
+    "My passion is to build products with comfortable and inspiring user experience.",
 };
 
 export const InfoContact = {

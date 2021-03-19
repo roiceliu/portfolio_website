@@ -7,7 +7,7 @@ export const SEdata1 = {
   img: BwsProj,
   alt: "Birdwell Solutions Website",
   description:
-    "Birdwell Solutions's official website for showcasing portfolio projects, providing company infomation and scheduling appointments.",
+    "Designed and developed Birdwell Solutions' official website for showcasing portfolio projects, providing company infomation and scheduling appointments.",
   techTools: "CSS, Javascript, Typescript, ES6, Node.js and Git, Figma",
   url: "https://birdwellsolutions.com/",
   projName: "Birdwell Solutions Official Website",
