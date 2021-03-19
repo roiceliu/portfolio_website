@@ -1,16 +1,17 @@
 export const exp1 = {
-  jobTitle: "Software Engineer & Head of Project Management",
+  jobTitle: "Software Developer & Head of Project Management",
   company: "Birdwell Solutions",
   startDate: "March 2020",
   endDate: "Now",
   desc1:
-    "Designed and created Birdwell’s official website via Figma (UI design) and coded with React framework.",
+    "Determined the architecture, design and features of the company’s official website and translated the UI wireframes into fully reusable and responsive React web pages with" +
+    " CSS, Javascript, Typescript, ES6, Node.js and Git",
   desc2:
-    "Initiated and developed highly adjustable and reusable website templates for Birdwell’s web apps projects.",
+    "Identified web-based users interactions and created highly-responsive, reusable and clean react components and templates using Javascript and Styled-components via React framework concepts. Designed highly-satisfying user interface wireframes and mockups according to clients’ requirement of website structure, functionality and aesthetic standards utilizing Figma prototyping software.",
   desc3:
-    "Boosted the sprint efficiency with excellent management for the web app team, which delivered the product two weeks advance of client expectations and with high customer satisfaction.",
+    "Improved dev teams’ sprint efficiency by 20% and enhanced communications with clients by optimizing overlapping  sprints, excluding potential work conflicts and providing progress transparency through Jira agile software. Led and initiated company’s project management expectations, standards and executing rules.vance of client expectations and with high customer satisfaction.",
   tools:
-    "Git, Jira agile software, Figma prototyping tool, programmed with Javascript, TypeScript, ES6, css, React",
+    "Git, Jira agile software, Figma prototyping tool, programmed with Javascript, TypeScript, ES6, css, Node.js, React, Git",
 };
 
 export const exp2 = {
