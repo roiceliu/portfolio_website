@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   background: #19181a;
-  min-height: 600px;
   padding: 8vh 16vw;
   display: flex;
   justify-content: center;

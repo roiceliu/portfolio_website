@@ -5,10 +5,11 @@ export const ProjectsContainer = styled.div`
   padding: 130px 16vw;
   display: flex;
   justify-content: center;
-  /* min-height: 800px; */
+  height: auto;
 
   @media screen and (max-width: 1000px) {
     padding: 100px 12vw;
+    min-height: 600px;
   }
 `;
 

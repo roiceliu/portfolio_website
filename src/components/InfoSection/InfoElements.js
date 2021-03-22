@@ -5,9 +5,11 @@ export const InfoContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? "#19181A" : "#000000")};
   display: flex;
   justify-content: center;
+  height: 800px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    min-height: 600px;
   }
 `;
 
