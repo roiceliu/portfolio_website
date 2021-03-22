@@ -3,9 +3,9 @@ import React from "react";
 import { Headline, Line } from "../AboutSection/AboutElements";
 import Experiences from "../Experiences";
 import { exp1, exp2, exp3 } from "./Data";
-import { WorkContainer, WorkWrapper } from "./WorkElements";
+import { WorkContainer, WorkWrapper } from "./ExpElements";
 
-const WorkSection = () => {
+const ExpSection = () => {
   return (
     <WorkContainer id="experience">
       <WorkWrapper>
@@ -19,4 +19,4 @@ const WorkSection = () => {
   );
 };
 
-export default WorkSection;
+export default ExpSection;

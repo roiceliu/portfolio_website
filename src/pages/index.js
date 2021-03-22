@@ -5,7 +5,7 @@ import InfoSection from "../components/InfoSection";
 import Navbar from "../components/Navbar";
 import ProjectsSection from "../components/ProjectsSection";
 import Sidebar from "../components/Sidebar";
-import WorkSection from "../components/WorkSection";
+import ExpSection from "../components/ExpSection";
 import { dataAbout, dataHero, InfoContact } from "./Data";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection {...dataHero} />
       <AboutSection {...dataAbout} />
-      <WorkSection />
+      <ExpSection />
       <ProjectsSection />
       <InfoSection {...InfoContact} />
     </>

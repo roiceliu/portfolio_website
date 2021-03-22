@@ -9,7 +9,7 @@ export const WorkContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 12vw;
-    min-height: 600px;
+    height: auto;
   }
 `;
 export const WorkWrapper = styled.div``;
