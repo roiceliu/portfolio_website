@@ -5,9 +5,15 @@ export const AboutContainer = styled.div`
   padding: 8vh 16vw;
   display: flex;
   justify-content: center;
+  height: 700px;
+
+  @media screen and (max-width: 1000px) {
+    height: 1200px;
+  }
 
   @media screen and (max-width: 768px) {
     padding: 100px 12vw;
+    height: auto;
   }
 `;
 
