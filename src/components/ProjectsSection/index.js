@@ -10,7 +10,14 @@ import {
   ProjectsWrapper,
 } from "./ProjectsElements";
 import Project from "../Project";
-import { designdata1, designdata2, SEdata1, SEdata2 } from "./Data";
+import {
+  designdata1,
+  designdata2,
+  SEdata1,
+  SEdata2,
+  SEdata3,
+  SEdata4,
+} from "./Data";
 
 const ProjectsSection = () => {
   return (
@@ -24,6 +31,8 @@ const ProjectsSection = () => {
           <Category>
             <CategoryTitle>Software Development</CategoryTitle>
             <ItemGrid>
+              <Project {...SEdata4} />
+              <Project {...SEdata3} />
               <Project {...SEdata1} />
               <Project {...SEdata2} />
             </ItemGrid>

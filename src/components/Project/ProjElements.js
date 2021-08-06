@@ -98,4 +98,10 @@ export const WebLink = styled.a`
   color: #6164ab;
   line-height: 25px;
   text-decoration: none;
+
+  &:hover {
+    font-weight:bold;
+    transition: 0.2s all ease-in-out;
+  }
+
 `;

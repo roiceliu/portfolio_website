@@ -2,6 +2,8 @@ import EllemaProj from "../../images/ellema_web.svg";
 import BwsProj from "../../images/birdwellProj.svg";
 import PortfolioProj from "../../images/portfolioSite.svg";
 import Myxr from "../../images/myxr.svg";
+import TaskManger from '../../images/TaskManager.JPG';
+import PathVisualizer from '../../images/PathVisualizer.JPG';
 
 export const SEdata1 = {
   img: BwsProj,
@@ -17,14 +19,32 @@ export const SEdata2 = {
   img: PortfolioProj,
   alt: "Portfolio Website",
   description: "A one-page portfolio project to showcase work. ",
-  techTools: "JavaScript, React, Node.js, Styled Components, Git, Figma",
-  url: "/",
-  projName: "Portfolio Website",
+  techTools: "JavaScript, React Framework, Node.js, Styled Components, Git, Figma",
+  url: "https://github.com/roiceliu/portfolio_website",
+  projName: "Portfolio Website Github",
+};
+
+export const SEdata3 = {
+  img: TaskManger,
+  alt: "Task Manager App",
+  description: "A Task management app which allows users to create personal account to create, view and manage tasks. Developed with Angular Framework as front-end, and RESTful .NET web API as back-end. ",
+  techTools: "Angular Framework, .NET framework, C#, TypeScript, SQL, Microsoft-SQL management tool",
+  url: "https://github.com/roiceliu/TaskManager-app.git",
+  projName: "Task Management Github",
+};
+
+export const SEdata4 = {
+  img: PathVisualizer,
+  alt: "Path Visulizer, 2021",
+  description: "A path tracing app which visualizes how different algorithms find paths from start point to end point. Developed with interactive visual animation in TypeScript.",
+  techTools: "Angular Framework, TypeScript, HTML, CSS",
+  url: "https://github.com/roiceliu/path_visualizer",
+  projName: "Path Visualizer Github",
 };
 
 export const designdata1 = {
   img: EllemaProj,
-  alt: "Perfect World Trilogy Website",
+  alt: "Perfect World Trilogy Website, 2021",
   description:
     "Designed all visual graphics and user interactions of this book promotion website(except blog page), which highly met the client's expectations. ",
   techTools: "WIX, Figma",
