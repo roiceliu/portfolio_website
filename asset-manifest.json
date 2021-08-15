@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio_website/static/css/main.cc350a8d.chunk.css",
-    "main.js": "/portfolio_website/static/js/main.6147826c.chunk.js",
-    "main.js.map": "/portfolio_website/static/js/main.6147826c.chunk.js.map",
+    "main.js": "/portfolio_website/static/js/main.76aa6891.chunk.js",
+    "main.js.map": "/portfolio_website/static/js/main.76aa6891.chunk.js.map",
     "runtime-main.js": "/portfolio_website/static/js/runtime-main.35cea910.js",
     "runtime-main.js.map": "/portfolio_website/static/js/runtime-main.35cea910.js.map",
-    "static/js/2.107170b9.chunk.js": "/portfolio_website/static/js/2.107170b9.chunk.js",
-    "static/js/2.107170b9.chunk.js.map": "/portfolio_website/static/js/2.107170b9.chunk.js.map",
+    "static/js/2.bd2f9086.chunk.js": "/portfolio_website/static/js/2.bd2f9086.chunk.js",
+    "static/js/2.bd2f9086.chunk.js.map": "/portfolio_website/static/js/2.bd2f9086.chunk.js.map",
     "index.html": "/portfolio_website/index.html",
     "static/css/main.cc350a8d.chunk.css.map": "/portfolio_website/static/css/main.cc350a8d.chunk.css.map",
-    "static/js/2.107170b9.chunk.js.LICENSE.txt": "/portfolio_website/static/js/2.107170b9.chunk.js.LICENSE.txt",
-    "static/media/Roiceliu_resume.90709e69.pdf": "/portfolio_website/static/media/Roiceliu_resume.90709e69.pdf",
+    "static/js/2.bd2f9086.chunk.js.LICENSE.txt": "/portfolio_website/static/js/2.bd2f9086.chunk.js.LICENSE.txt",
+    "static/media/PathVisualizer.6f92b516.JPG": "/portfolio_website/static/media/PathVisualizer.6f92b516.JPG",
+    "static/media/RoiceLiu_resume.21850b43.pdf": "/portfolio_website/static/media/RoiceLiu_resume.21850b43.pdf",
+    "static/media/TaskManager.f853bd84.JPG": "/portfolio_website/static/media/TaskManager.f853bd84.JPG",
     "static/media/birdwellProj.e3653f80.svg": "/portfolio_website/static/media/birdwellProj.e3653f80.svg",
     "static/media/contactImg.d1558bcc.svg": "/portfolio_website/static/media/contactImg.d1558bcc.svg",
     "static/media/ellema_web.55ad286b.svg": "/portfolio_website/static/media/ellema_web.55ad286b.svg",
@@ -20,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.35cea910.js",
-    "static/js/2.107170b9.chunk.js",
+    "static/js/2.bd2f9086.chunk.js",
     "static/css/main.cc350a8d.chunk.css",
-    "static/js/main.6147826c.chunk.js"
+    "static/js/main.76aa6891.chunk.js"
   ]
 }
