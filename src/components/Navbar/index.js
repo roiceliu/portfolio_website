@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-import Pdf from "../Roiceliu_resume.pdf";
+import Pdf from "../RoiceLiu_resume.pdf";
 import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,

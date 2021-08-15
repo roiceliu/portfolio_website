@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../Roiceliu_resume.pdf";
+import Pdf from "../RoiceLiu_resume.pdf";
 import {
   Icon,
   SidebarContainer,
